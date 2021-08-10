@@ -1,0 +1,38 @@
+/*  */
+
+
+body {
+  background-color: #234;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px outset sienna;
+  background-color: saddlebrown;
+  padding: 1em 1em 0;
+}
+img {
+  filter: grayscale(0%);
+  border: 3px inset sienna;
+  width: 58vh;
+}
+figcaption {
+  font-family: georgia;
+  font-size: .6em;
+  color: yellow;
+  background-color: goldenrod;
+  width: 10em;
+  border: 1px outset gold;
+  margin-bottom: 1px;
+}
+figure, input {width: 60vh;}
+#flt {color: violet;}
+#v {color: darkorange;}
